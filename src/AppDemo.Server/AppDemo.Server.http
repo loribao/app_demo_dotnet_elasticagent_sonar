@@ -1,0 +1,6 @@
+@AppDemo.Server_HostAddress = http://localhost:5184
+
+GET {{AppDemo.Server_HostAddress}}/ping/
+Accept: application/json
+
+###
