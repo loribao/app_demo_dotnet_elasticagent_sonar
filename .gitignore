@@ -6,3 +6,4 @@
 .sonarqube
 sonaranali.sh
 .vscode
+test/**/coverage.opencover.xml

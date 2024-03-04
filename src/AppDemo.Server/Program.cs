@@ -20,5 +20,8 @@ app.MapGet("/ping", () => "pong")
 app.MapGet("/sum",(int x,int y)=> Calc.Add(x,y))
         .WithName("sum")
         .WithOpenApi();
+//app.MapGet("/sum",(int x,int y)=> Calc.Add(x,y))
+//       .WithName("sum")
+//       .WithOpenApi();
 
 app.Run();
