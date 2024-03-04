@@ -3,3 +3,6 @@
 **/**/bin
 **/**/obj
 .idea
+.sonarqube
+sonaranali.sh
+.vscode
